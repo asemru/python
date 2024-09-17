@@ -5,7 +5,7 @@ from aiogram.dispatcher import FSMContext
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 import asyncio
 
-api = '7346715807:AAGlBVpL6ZvgQ8ZZTvaGlnCMHMAxK08ZEw4' #<-- Вставить номер своего телеграмм бота
+api = '' #<-- Вставить номер своего телеграмм бота
 bot = Bot(token=api)
 db = Dispatcher(bot, storage=MemoryStorage())
 kb = ReplyKeyboardMarkup(resize_keyboard=True)
